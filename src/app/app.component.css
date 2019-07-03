@@ -1,0 +1,34 @@
+.heading{
+    margin-top: 2%;
+
+}
+.heading1{
+    margin-top: 0%;
+    color: #49b7e8;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 0%;
+
+}
+.logodiv{
+display: inline;
+}
+.head{
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 2%;
+}
+.icon{
+    cursor: pointer;
+}
+.logo{
+    display: inline;
+}
+.border{
+    width: 114%;
+    margin-left: -7%;
+
+}
+.numberrobot{
+    width: 50%;
+}

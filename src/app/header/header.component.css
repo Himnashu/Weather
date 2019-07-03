@@ -1,0 +1,64 @@
+.heading{
+    margin-top: 2%;
+}
+.border{
+    width: 117%;
+    margin-left: -9%;
+}
+.numberrobot{
+   
+}
+.setborder{
+    border: 1px red solid ;
+}
+input.ng-invalid.ng-touched{
+    border: 1px red solid ;
+
+}
+.help-block{
+    color: red;
+}
+.help-block1{
+    color: red;
+}
+.iconn{
+    margin-top: -10%;
+}
+label{
+    color: #343a40;
+    font-weight: 600;
+
+}
+.form-group{
+    color: #343a40;
+
+}
+.settop{
+    margin-top: 4%;
+}
+.setnumber {
+    position: absolute;
+    font-size: 100px;
+    z-index: 0;
+    color: #e4dfdf;
+    font-weight: 900;
+    line-height: 20px;
+}
+.leftheading {
+    letter-spacing: 1px;
+    font-size: 32px;
+    font-weight: 900;
+    z-index: 1;
+    position: relative;
+}
+.link{
+    margin-bottom: 2%;
+    padding-bottom: 1px;
+    font-size: 10px;
+    clear: left;
+    font-weight: bold !important;
+    border-bottom:2px solid #0083ff;
+    letter-spacing: 4px;
+    color: #3f3f3f;
+    text-decoration: none;
+}

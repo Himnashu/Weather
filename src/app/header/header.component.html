@@ -1,0 +1,52 @@
+<div class="row">
+  <div class="col-md-4 settop">
+      <div class="setnumber">
+          01
+      </div>
+      <div class="leftheading">
+              Weather Task
+      </div>           
+  </div>   
+</div>
+<div class="link" style="width :6%;"></div>
+<div class="row">
+  <div class="col-md-4 ">
+      <form (ngSubmit)="weather(f)" #f="ngForm">
+      <div class="form-group">
+          <label for="city">Enter Name of City</label>
+          <input type="text" [(ngModel)]="City"
+          name="city"
+          
+            class="form-control numberrobot"
+            id="city"
+             placeholder="Enter Name of city Eg: London / Bnagalore"
+             ngModel
+             required
+             #numrobot="ngModel"
+             >
+            <span class="help-block" *ngIf="!numrobot.valid && numrobot.touched" >Enter a City </span>
+        </div>
+        <div class="form-group">
+          <label for="Code">Enter Country Code</label>
+          <input type="text" [(ngModel)]="Code"
+          name="Code"
+         
+            class="form-control numberrobot"
+            id="Code"
+             placeholder="Enter Country Code  Eg: uk/in"
+             ngModel
+             required
+             #code="ngModel"
+             >
+            <span class="help-block" *ngIf="!code.valid && code.touched" >Enter a Country Code</span>
+        </div>
+        <button type="submit"
+         class="btn btn-dark btn-lg"
+         [disabled]="!f.valid">Submit</button>    
+    </form>
+  </div>
+  <div class="col-md-7 mx-auto iconn" > 
+      <img class="img-fluid " src="assets/weather.jpg">
+    </div>
+</div>
+  
